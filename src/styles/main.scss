@@ -1,7 +1,7 @@
 @import "utils";
 @import "fonts";
 @import "typography";
-$large-img-width: 1280px;
+$large-img-width: 800px;
 
 body {
   margin: 0;
@@ -12,7 +12,7 @@ body {
 
   max-width: $large-img-width;
   display: block;
-  margin: 10px auto;
+  margin: 7px auto;
   box-sizing: border-box;
 
   &__list {
@@ -35,7 +35,7 @@ body {
 
   max-width: $large-img-width;
   border: 1px solid black;
-  padding: 10px;
+  padding: 7px;
   box-sizing: border-box;
 }
 
@@ -44,11 +44,11 @@ body {
   list-style-type: none;
   display: inline-block;
   border: 1px solid black;
-  padding: 10px;
+  padding: 7px;
   margin: 0;
   box-sizing: border-box;
   max-width: calc(#{$large-img-width} / 5 - 5px);
-  max-height: calc(#{$large-img-width} / 5);
+  max-height: calc(#{$large-img-width} / 5 - 5px);
   overflow: hidden;
 
   &:hover {
