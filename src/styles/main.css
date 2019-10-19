@@ -21,6 +21,7 @@ body {
   margin: 7px auto;
   box-sizing: border-box;
 }
+
 .gallery__list {
   max-width: 800px;
   margin: 0;
@@ -56,5 +57,3 @@ body {
 .list-item:hover {
   box-shadow: 0 0 15px gray;
 }
-
-/*# sourceMappingURL=main.css.map */
